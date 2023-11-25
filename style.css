@@ -1,0 +1,174 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    color:white;
+    /* font-weight: 900; */
+}
+html ,body{
+    height:100%;
+    width:100%;
+
+}
+#nav {
+    height:145px;
+    width:100%;
+    /* background-color: red; */
+    display:flex;
+    align-items: center;
+    padding:0 100px;
+    gap:50px;
+    position: fixed;
+    justify-content: flex-start;
+    z-index: 99;
+}
+#nav img{
+    height:20px;
+}
+#nav h4{
+    text-transform: uppercase;
+    font-weight:500;
+}
+.title {
+    display:flex;
+    align-items: center;
+    /* padding-right:1rem ; */
+}
+.title h2{
+   font-size:30px;
+   color:	#014e63;
+   font-family: "Rubik",sans-serif;
+}
+#search-bar { 
+    padding: 0.8rem;
+    width: 15rem;
+    height: 2rem;
+    background-color:rgb(120, 187, 208);
+    font-size: 12px;
+    color:#131010;
+    border-style:none;
+    /* border-color:w; */
+    /* border:1px solid #eeeeee;s */
+    /* box-shadow: 2rem; */
+    border-radius:1rem;
+    /* border-radius:2rem ; */
+    
+  } 
+  .search-form{
+    padding:0rem  0rem 0rem 9rem;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+     /* border-radius:2rem; */
+     /* overflow:hidden; */
+  }
+/* #cursur{
+    height:10px;
+    width:10px;
+    background-color:#95C11E;
+    border-radius: 50%;
+    position:fixed;
+    z-index:99;
+}
+#cursur-blur{
+    height:350px;
+    width:350px;
+    background-color:#96c11e2f;
+    border-radius: 50%;
+    filter:blur(40px);
+    position:fixed;
+    z-index:9;   
+} */
+video {
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    position:fixed;
+    z-index: -1;
+    /* position: relative; */
+}
+#main{
+ position: relative;
+ background-color: rgba(0,0,0,0.35);
+}
+#page1{
+    height:100vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+}
+#page1 h1{
+    font-size:80px;
+    font-weight: 900px;
+    position: relative;
+
+
+}
+.main-heading::before{
+    content: "RECIPE.BOOK";
+    position:absolute;
+    color:black;
+    top:-4px;
+    left:-4px;
+    -webkit-text-stroke: 1px #95C11E;
+    z-index: -1;
+}
+.span-title{
+  color:#fff;
+  font-style:inherit;
+  /* font-weight: 0; */
+}
+#page1 h2{
+    font-size:23px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    font-weight:400;
+}
+
+#page1 p{
+    width:23%;
+   font-weight: 100;
+   text-align: center;
+}
+.page2 {
+    height:100vh;
+    width:100%;
+    border-top: #014e63;
+    z-index:11;
+    /* background-color: #0E1F32; */
+
+}
+.img{
+  width:10%;
+  height:10%;
+}
+/* section 3 */
+
+.page3{
+  height:100vh;
+  width:100%;
+  background-color:#0E1F32;
+  padding:50px 0px 0 10px ;
+  /* z-index:10; */
+}
+.bestpics{
+  background-color: #0E1F32;
+  z-index: -1;
+  width:80%;
+  height:90vh;
+  border-right: 1px solid #eee;
+}
+.grid-img img{
+    height:70%;
+    width:90%;
+}
+.grid-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
