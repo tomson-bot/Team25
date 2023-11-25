@@ -1,6 +1,6 @@
 # Team25
 Teamamtes:
-Tomson , Sidhu,pratima,Vignesh
+(Tomson , Sidhu,pratima,Vignesh)
 problem statement:
 An application where people can add their own unique recipes with images,
 procedure ingredients, etc., and others can view all the recipes on the home page.
